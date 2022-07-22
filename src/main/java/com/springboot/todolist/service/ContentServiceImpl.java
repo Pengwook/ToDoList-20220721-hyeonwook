@@ -1,5 +1,11 @@
 package com.springboot.todolist.service;
 
-public class ContentServiceImpl {
+import org.springframework.stereotype.Service;
 
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class ContentServiceImpl {
+	
 }

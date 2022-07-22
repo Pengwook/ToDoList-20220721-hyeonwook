@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CMRespDto<T> {
 	private int code;	// 1: 성공, -1: 실패
-	private T body;
-	private String msg;
+	private String message;
+	private T data;
 }
